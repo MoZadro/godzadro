@@ -1,0 +1,3 @@
+sensitive_file filter=crypt diff=crypt
+values-staging.yaml filter=crypt diff=crypt
+rancher-staging.json filter=crypt diff=crypt
