@@ -19,6 +19,6 @@ public class HelloController {
     }
     @RequestMapping("/logs")
     public void logs(){
-        System.out.println(UUID.randomUUID.toString()+" godzadro3")
+        System.out.println(UUID.randomUUID.toString()+" godzadro3");
     }
 }
