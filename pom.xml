@@ -24,6 +24,10 @@
         <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
 
+
+
+    
+
     <dependency>
   <groupId>io.micrometer</groupId>
   <artifactId>micrometer-registry-prometheus</artifactId>
@@ -38,6 +42,19 @@
 		</dependency>
         
     </dependencies>
+
+
+
+
+    
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+</dependencies>
+
+
 
     <properties>
         <start-class>com.dockerforjavadevelopers.hello.Application</start-class>
